@@ -1,0 +1,13 @@
+body {
+    scroll-snap-type: mandatory;
+    scroll-behavior: smooth;
+}
+
+.section {
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    scroll-snap-coordinate: 0% 0%;
+}
